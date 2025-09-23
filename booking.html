@@ -17,16 +17,20 @@
 
     <main>
       <h1><strong>Book your Ride</strong></h1>
-      <form>
-        <label>Name: <input type="text" name="name" required></label><br>
-        <label>Phone Number: <input type="text" name="phone_number"></label><br>
-        <label>Email: <input type="email" name="email" required></label><br>
-        <label>Date: <input type="date" name="date" required></label><br>
-        <label>Picktup Location <input type="text" name="pickup"></label><br>
-        <label>Destination: <input type="text" name="destination"></label><br>
-      <!-- Add more forms later, flight info for airport, passenger number, kids/pets?, pick up time, additional services needed --> 
-        <button type="submit">Confirm Booking</button>
-      </form>
+     <p style="text-align:center;">Please fill out the form below to schedule your ride with us.</p>
+ <!-- Book Now Button -->
+    <a href="#booking-form" class="cta-button">Book Now</a>
+
+    <!-- Embedded Google Form -->
+    <div class="form-container">
+      <iframe 
+        src="https://docs.google.com/forms/d/e/2WitvtW1HGPxr4R6A/viewform?embedded=true" 
+        width="640" 
+        height="800" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0">
+       
     </main>
   </body>
 </html>
